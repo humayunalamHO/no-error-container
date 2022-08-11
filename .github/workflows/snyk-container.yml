@@ -38,4 +38,7 @@ jobs:
 
     - name: Check on failures
       if: steps.check-fail.outcome != 'success'
-      run: echo "fail"
+      run: exit 1
+    
+    - name: Push image
+      run: echo "push image"
