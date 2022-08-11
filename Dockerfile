@@ -1,1 +1,2 @@
-FROM: hello-world
+FROM alpine
+CMD ["echo", "Hello SemVerTest!"]
