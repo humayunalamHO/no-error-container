@@ -37,5 +37,5 @@ jobs:
         sarif_file: snyk.sarif
 
     - name: Check on failures
-      if: steps.check-fail.outcome == 'success'
-      run: echo "pass"
+      if: steps.check-fail.outcome != 'success'
+      run: echo "fail"
