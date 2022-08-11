@@ -1,2 +1,2 @@
-FROM python:3.11.0b1-buster
+FROM alpine:3
 CMD ["echo", "Hello SemVerTest!"]
