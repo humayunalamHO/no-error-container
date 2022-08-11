@@ -51,7 +51,8 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          image: ${{ steps.meta.outputs.tags }}
+#          image: ${{ steps.meta.outputs.tags }}
+          image: humayunalamHO/snyk-image          
           args: |
             --file=Dockerfile
             --severity-threshold=medium
