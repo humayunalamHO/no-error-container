@@ -27,7 +27,7 @@ jobs:
         image: your/image-to-test
         args: |
           --file=Dockerfile
-          --severity-threshold=high
+          --severity-threshold=low
 #          --sarif-file-output=snyk-container.sarif
     
  
