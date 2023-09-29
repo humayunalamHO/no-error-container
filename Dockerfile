@@ -1,2 +1,2 @@
-FROM alpine:3.16.1
+FROM alpine:3.18.4
 CMD ["echo", "Hello SemVerTest!"]
